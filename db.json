@@ -1,0 +1,320 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "name": "admin2",
+      "email": "admin2@gmail.com",
+      "password": "4321"
+    },
+    {
+      "id": "1731673045922",
+      "email": "admin11@gmail.com",
+      "password": "12345",
+      "name": "admin11"
+    },
+    {
+      "id": "1731673087489",
+      "email": "admin12@gmail.in",
+      "password": "12345",
+      "name": "admin12"
+    }
+  ],
+  "package": [
+    {
+      "country": "America",
+      "price": "2900",
+      "person": 3,
+      "days": "9",
+      "desc": "Embark on an unforgettable 10-day tour of America with a group of three adventurers, exploring the nation's iconic landmarks and hidden gems. Starting in vibrant New York City, you'll visit the Statue of Liberty and Times Square before heading to the historic streets of Philadelphia. Next, immerse yourself in the beauty of the Appalachian Mountains as you make your way to Washington, D.C., where the majestic monuments await. After experiencing the rich culture of Chicago, continue to the breathtaking landscapes of the Grand Canyon. The journey also includes a stop in Las Vegas, where the dazzling lights and entertainment will captivate your senses. Conclude your tour in sunny Los Angeles, soaking up the sun on the beaches of Santa Monica and exploring Hollywood. This dynamic itinerary combines city excitement, natural wonders, and a taste of America's diverse culture, promising memories that will last a lifetime.",
+      "url": "https://images.pexels.com/photos/64271/queen-of-liberty-statue-of-liberty-new-york-liberty-statue-64271.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "1"
+    },
+    {
+      "country": "Italy",
+      "price": "1800",
+      "person": 2,
+      "days": 6,
+      "desc": "Experience the romance and beauty of Italy with our exclusive 6-day tour package for 2, priced at just $1,800. This unforgettable journey begins in the enchanting city of Rome, where you'll explore iconic landmarks like the Colosseum, the Vatican, and the charming streets of Trastevere. Next, indulge in the flavors of Tuscany with a scenic drive to Florence, where you can admire masterpieces in the Uffizi Gallery and stroll across the Ponte Vecchio. Enjoy a delightful wine-tasting experience in the picturesque Chianti region, savoring local wines and delectable cuisine. The adventure continues with a visit to the stunning Amalfi Coast, where you can soak in breathtaking views and relax in the charming town of Positano. Throughout your trip, you'll enjoy comfortable accommodations, guided tours, and authentic Italian meals, making this a perfect getaway for couples seeking romance and adventure in Italy. Don’t miss out on this incredible opportunity to create lasting memories together!",
+      "url": "https://images.pexels.com/photos/531602/pexels-photo-531602.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "2"
+    },
+    {
+      "country": "India",
+      "price": "1500",
+      "person": 4,
+      "days": 7,
+      "desc": "Discover the vibrant culture and rich heritage of India with our exclusive 7-day tour package for four members, all for just $1,500. Your adventure begins in Delhi, where you'll explore historic sites such as the Red Fort, India Gate, and the bustling markets of Chandni Chowk. From there, journey to the enchanting city of Agra to witness the breathtaking beauty of the Taj Mahal at sunrise, followed by a visit to the Agra Fort. Next, travel to Jaipur, the \"Pink City,\" where you'll marvel at the majestic Amber Fort, City Palace, and Hawa Mahal. Enjoy a cultural evening with traditional Rajasthani cuisine and dance performances. The tour also includes a visit to the serene landscapes of Pushkar, known for its sacred lake and vibrant markets. With comfortable accommodations, guided tours, and authentic meals included, this package offers an unforgettable experience filled with exploration, culture, and camaraderie. Join us for an incredible journey through the heart of India!",
+      "url": "https://images.pexels.com/photos/29002477/pexels-photo-29002477/free-photo-of-hawa-mahal-palace-of-winds-in-jaipur-india.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "3"
+    },
+    {
+      "id": "1730291415038",
+      "country": "France",
+      "price": "3200",
+      "days": "5",
+      "person": "3",
+      "desc": "This tour begins in Paris, exploring landmarks like the Eiffel Tower, the historic Notre-Dame Cathedral, and the scenic Seine River on a sunset cruise. From the romance of Paris, travel to the picturesque Loire Valley, where grand châteaux and vineyard tours await. The adventure continues to Provence, immersing you in the charm of lavender fields, medieval villages, and the vibrant local markets. Finally, unwind on the French Riviera, visiting Nice and Monaco's beautiful coastlines. This all-inclusive tour combines guided explorations, local cuisine, and comfortable accommodations, creating an unforgettable French getaway.",
+      "url": "https://images.pexels.com/photos/2344/cars-france-landmark-lights.jpg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "1730305914974",
+      "country": "Bulgaria",
+      "price": "900",
+      "days": "4",
+      "person": "2",
+      "desc": "Experience a delightful 4-day tour of Bulgaria for two members at just $900. Begin your adventure in Sofia, where you’ll explore iconic sites like Alexander Nevsky Cathedral and enjoy the lively atmosphere of Vitosha Boulevard. \nNext, visit Plovdiv, one of Europe’s oldest cities, to admire its Roman Theatre and charming Old Town. On day three, marvel at the stunning Rila Monastery, a UNESCO World Heritage site, nestled in the Rila Mountains. \nReturn to Sofia for a relaxing evening and a farewell dinner featuring traditional Bulgarian cuisine. This package includes comfortable accommodations, guided tours, and meals, making for an unforgettable getaway in Bulgaria!",
+      "url": "https://images.pexels.com/photos/6161921/pexels-photo-6161921.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "1730306103670",
+      "country": "Germany",
+      "price": "2200",
+      "days": "7",
+      "person": "3",
+      "desc": "Embark on an unforgettable 7-day tour of Germany for three members, priced at just $2,200. Begin your journey in Berlin, where you’ll explore historic landmarks such as the Brandenburg Gate, the Berlin Wall, and the vibrant neighborhoods of Kreuzberg and Mitte. \n\nNext, travel to Dresden to admire its stunning Baroque architecture and the famous Frauenkirche. The adventure continues in Munich, where you can experience the lively atmosphere of Marienplatz and indulge in delicious Bavarian cuisine. \n\nOn day four, take a day trip to Neuschwanstein Castle, the fairy-tale castle nestled in the Alps, before heading to the charming town of Rothenburg ob der Tauber, known for its well-preserved medieval architecture. \n\nThe tour concludes in Frankfurt, where you can stroll along the River Main and visit the historic Römer district. This all-inclusive package covers comfortable accommodations, guided tours, and meals, ensuring a remarkable experience filled with culture, history, and adventure throughout Germany!",
+      "url": "https://images.pexels.com/photos/109628/pexels-photo-109628.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "country": "America",
+      "price": "3000",
+      "person": "2",
+      "days": "5",
+      "desc": "Embark on an unforgettable 5-day America tour for just $3,000, focusing on the highlights of Hollywood, New York City, and San Francisco. Begin your adventure in Los Angeles, exploring iconic attractions like Hollywood Boulevard and the Griffith Observatory. Then, fly to New York City for a guided sightseeing experience, including Central Park and the Statue of Liberty. Finally, head to San Francisco, where you'll visit the Golden Gate Bridge and Fisherman's Wharf, savoring stunning views and vibrant culture. This all-inclusive package covers accommodation, daily meals, round-trip flights, and guided tours, making it the perfect getaway for an unforgettable experience!",
+      "url": "https://images.pexels.com/photos/2695679/pexels-photo-2695679.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": "1730306953478"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "logo": "fa fa-3x fa-globe",
+      "title": "World Wide Tours",
+      "desc": "Experience the beauty of the world with our expertly curated tours that take you to iconic destinations and hidden gems alike."
+    },
+    {
+      "id": "2",
+      "logo": "fa fa-3x fa-hotel",
+      "title": "Hotel Reservations",
+      "desc": "Find the perfect stay with our hotel reservation services, offering a wide range of accommodations to suit every budget and preference."
+    },
+    {
+      "id": "3",
+      "logo": "fa fa-3x fa-user",
+      "title": "Travel Guides",
+      "desc": "Get insider knowledge and tips from our experienced travel guides, ensuring you make the most of your journey."
+    },
+    {
+      "id": "4",
+      "logo": "fa fa-3x  fa-calendar",
+      "title": "Event Management",
+      "desc": "Let us handle your special events while you enjoy your trip, from destination weddings to corporate retreats."
+    },
+    {
+      "id": "5",
+      "logo": "fas fa-3x fa-tram",
+      "title": "Adventure Activities",
+      "desc": "Dive into thrilling adventures with our tailored experiences, including hiking, scuba diving, and more, for adrenaline junkies."
+    },
+    {
+      "id": "6",
+      "logo": "fa fa-3x fa-university",
+      "title": "Cultural Experiences",
+      "desc": "Immerse yourself in local cultures with authentic experiences, from cooking classes to traditional performances."
+    },
+    {
+      "id": "7",
+      "logo": "fa fa-3x fa-plane",
+      "title": "Transportation Services",
+      "desc": "Enjoy seamless travel with our transportation services, including airport transfers, car rentals, and guided transport options."
+    },
+    {
+      "id": "8",
+      "logo": "fa fa-3x fa-heart",
+      "title": "Travel Insurance",
+      "desc": "Travel with peace of mind by securing comprehensive travel insurance options to cover unexpected events during your journey."
+    },
+    {
+      "id": "9",
+      "logo": "fa fa-3x fa-users  ",
+      "title": "Family Tours",
+      "desc": "Create unforgettable memories with our family-friendly tours designed for travelers of all ages, complete with engaging activities for kids."
+    },
+    {
+      "id": "10",
+      "logo": "fa fa-3x fa-space-shuttle",
+      "title": "Luxury Packages",
+      "desc": "Indulge in luxury with our exclusive travel packages that offer high-end accommodations, private tours, and personalized services."
+    },
+    {
+      "id": "1730291669734",
+      "title": "Free Breakfast ",
+      "logo": "fa fa-3x fa-coffee",
+      "desc": "Free Breakfast Included in all our offered stays and hotels."
+    }
+  ],
+  "team": [
+    {
+      "id": "1730355316389",
+      "firstName": "Adam",
+      "lastName": "Mikhaels",
+      "age": "26",
+      "salary": "300000",
+      "department": "Sales",
+      "empStatus": "Contract",
+      "city": "New York",
+      "role": "Director",
+      "profileURL": "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "email": "user2@gmail.com"
+    },
+    {
+      "id": "1731579894495",
+      "firstName": "Akshat",
+      "lastName": "Shah",
+      "age": "22",
+      "salary": "400000",
+      "department": "Development",
+      "empStatus": "Part-Time",
+      "city": "Ahmedabad",
+      "role": "Project Manager",
+      "profileURL": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "email": "user1@gmail.com"
+    },
+    {
+      "id": "1731580785333",
+      "firstName": "Rohit",
+      "lastName": "Shetty",
+      "age": "43",
+      "salary": "1500000",
+      "department": "Human Resources",
+      "empStatus": "Part-Time",
+      "city": "Delhi",
+      "role": "Team Lead",
+      "profileURL": "https://images.pexels.com/photos/1073097/pexels-photo-1073097.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "email": "rohit@gmail.com"
+    },
+    {
+      "id": "1731586078148",
+      "firstName": "Diya",
+      "lastName": "Patel",
+      "age": "24",
+      "salary": "350000",
+      "department": "Operations",
+      "empStatus": "Full-Time",
+      "city": "Ahmedabad",
+      "role": "Team Lead",
+      "profileURL": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "email": "diya@gmail.com"
+    },
+    {
+      "id": "1731783019670",
+      "firstName": "Hetvi",
+      "lastName": "Jain",
+      "age": "34",
+      "salary": "550000",
+      "department": "Finance",
+      "empStatus": "Full-Time",
+      "city": "Mumbai",
+      "role": "Operations Manager",
+      "profileURL": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "email": "user43@gmaail.com"
+    }
+  ],
+  "users": [
+    {
+      "id": "1234",
+      "email": "user1@gmail.com",
+      "password": "1234",
+      "name": "User1",
+      "status": "unblock",
+      "image": "https://images.pexels.com/photos/769749/pexels-photo-769749.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "1230",
+      "email": "user2@gmail.com",
+      "password": "1234",
+      "name": "User2",
+      "status": "block",
+      "image": "https://images.pexels.com/photos/3055128/pexels-photo-3055128.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "1231",
+      "email": "user3@gmail.com",
+      "password": "1432",
+      "name": "User3",
+      "status": "unblock",
+      "image": "https://images.pexels.com/photos/3183824/pexels-photo-3183824.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": "1731651466377",
+      "email": "user5@outlook.com",
+      "password": "1234",
+      "name": "user5",
+      "image": "https://images.pexels.com/photos/4581225/pexels-photo-4581225.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "unblock"
+    },
+    {
+      "id": "1731660688148",
+      "email": "",
+      "password": "",
+      "name": "",
+      "image": "",
+      "status": "unblock"
+    },
+    {
+      "id": "1731780100222",
+      "email": "shahakshat200@gmail.com",
+      "password": "1234",
+      "name": "Akshat Shah",
+      "image": "https://images.pexels.com/photos/17081936/pexels-photo-17081936/free-photo-of-fisherman-in-raincoat.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "status": "unblock"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "name": "Aryan Mehta",
+      "email": "user123@gmail.com",
+      "destination": "America",
+      "specialRequest": "NA",
+      "datetime": "2024-11-20 15:30"
+    },
+    {
+      "id": "e8d6",
+      "name": "Akshat Shah",
+      "email": "shahakshat200@gmail.com",
+      "datetime": "2024-11-18 00:00",
+      "destination": "India",
+      "specialRequest": "good travel"
+    },
+    {
+      "id": "768b",
+      "name": "Cassendra",
+      "email": "cass@gmail.com",
+      "datetime": "2024-11-21 00:00",
+      "destination": "Italy",
+      "specialRequest": "nagsdfg gsdagf s"
+    },
+    {
+      "id": "3c1c",
+      "name": "Helan",
+      "email": "aadas@fmsdk.com",
+      "datetime": "2024-12-05 14:50",
+      "destination": "Germany",
+      "specialRequest": "dasda"
+    },
+    {
+      "id": "6eb4",
+      "name": "Priya",
+      "email": "priya@gmail.com",
+      "datetime": "2024-12-26 14:50",
+      "destination": "France",
+      "specialRequest": "na"
+    }
+  ]
+}

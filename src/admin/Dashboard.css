@@ -1,0 +1,22 @@
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .stat-box {
+    width: 250px;  /* Fixed width */
+    height: 200px; /* Fixed height */
+    padding: 20px;
+    border: 2px solid #dc3545; /* Danger color */
+    background-color: #f8f9fa; /* Light background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  

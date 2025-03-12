@@ -19,15 +19,66 @@ const AddService = () => {
 
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    const res = await axios.post("http://localhost:3000/services", service)
-    console.log("Service added... => ", service);
-    setservice({
-      id: '',
-      title: '',
-      logo: '',
-      desc: '',
-    })
+  e.preventDefault();
+
+  const services = [
+    {
+      id: new Date().getTime().toString() + "1",
+      title: "City Tours",
+      logo: "fa fa-3x fa-map",
+      desc: "Explore major cities with our guided tours covering top attractions.",
+    },
+    {
+      id: new Date().getTime().toString() + "2",
+      title: "Cruise Vacations",
+      logo: "fa fa-3x fa-ship",
+      desc: "Enjoy luxury cruise vacations to exotic destinations around the world.",
+    },
+    {
+      id: new Date().getTime().toString() + "3",
+      title: "Budget Travel",
+      logo: "fa fa-3x fa-money",
+      desc: "Affordable travel packages designed for budget-conscious travelers.",
+    },
+    {
+      id: new Date().getTime().toString() + "4",
+      title: "Business Travel",
+      logo: "fa fa-3x fa-briefcase",
+      desc: "Hassle-free business travel arrangements with premium services.",
+    },
+    {
+      id: new Date().getTime().toString() + "5",
+      title: "Eco-Tourism",
+      logo: "fa fa-3x fa-leaf",
+      desc: "Sustainable travel options for nature lovers and eco-conscious travelers.",
+    },
+    {
+      id: new Date().getTime().toString() + "6",
+      title: "Photography Tours",
+      logo: "fa fa-3x fa-camera",
+      desc: "Capture stunning landscapes and cultural moments with expert-led photography tours.",
+    },
+    {
+      id: new Date().getTime().toString() + "7",
+      title: "Wellness Retreats",
+      logo: "fa fa-3x fa-spa",
+      desc: "Rejuvenate with yoga, meditation, and spa retreats in peaceful locations.",
+    },
+    {
+      id: new Date().getTime().toString() + "8",
+      title: "Wildlife Safari",
+      logo: "fa fa-3x fa-paw",
+      desc: "Get up close with wildlife in their natural habitat on thrilling safaris.",
+    },
+  ];
+
+  try {
+    await Promise.all(services.map(service => axios.post("http://localhost:3000/services", service)));
+    console.log('All services added successfully');
+  } catch (error) {
+    console.error('Error adding services:', error);
+  }
+
   }
   return (
     <div >

@@ -14,8 +14,8 @@ import EditService from './admin/EditService';
 import AddTeam from './admin/AddTeam';
 import ViewTeam from './admin/ViewTeam';
 import Dashboard from './admin/Dashboard';
-import UserLogin from './website/pages/UserLogin';
-import Signup from './website/pages/Signup';
+// import UserLogin from './website/pages/UserLogin';
+// import Signup from './website/pages/Signup';
 import Index1 from './website/pages/Index1';
 import About from './website/pages/About';
 import Services from './website/pages/Services';
@@ -27,51 +27,51 @@ import Page404 from './website/common/Page404';
 import Contact from './website/pages/Contact';
 function App() {
   return (
-    <BrowserRouter> 
-    <div className="App">
-      <Routes>
-        {/* Admin View */}
-        
-        <Route path='/adminLogin' element={<ALogin />} />
-        <Route path='/adminSignup' element={<AdminRegister />} />
-        
-        <Route path='/add-package' element={<AddPackage />} />
-        <Route path='/view-package' element={<ViewPackage />} />
-        <Route path='/edit-package' element={<EditPackage />} />
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          {/* Admin View */}
 
-        <Route path='/add-service' element={<AddService />} />
-        <Route path='/view-service' element={<ViewService />} />
-        <Route path='/edit-service' element={<EditService />} />
+          <Route path='/adminLogin' element={<ALogin />} />
+          <Route path='/adminSignup' element={<AdminRegister />} />
 
-        <Route path='/add-team' element={<AddTeam />} />
-        <Route path='/view-team' element={<ViewTeam />} />
+          <Route path='/add-package' element={<AddPackage />} />
+          <Route path='/view-package' element={<ViewPackage />} />
+          <Route path='/edit-package' element={<EditPackage />} />
 
+          <Route path='/add-service' element={<AddService />} />
+          <Route path='/view-service' element={<ViewService />} />
+          <Route path='/edit-service' element={<EditService />} />
 
-        <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/add-team' element={<AddTeam />} />
+          <Route path='/view-team' element={<ViewTeam />} />
 
 
-
-        {/* User View */}
-        <Route path='/login' element={<UserLogin />} />
-        <Route path='/sign-up' element={<Signup />} />
-        <Route path='/' element={<Index1 />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/packages' element={<Packages />} />
-        <Route path='/booking' element={<Booking />} />
-        <Route path='/services' element={<Services />} />
-        <Route path='/team' element={<TravelGuide />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/destination' element={<Destination />} />
+          <Route path='/dashboard' element={<Dashboard />} />
 
 
 
+          {/* User View */}
+          {/* <Route path='/login' element={<UserLogin />} /> */}
+          {/* <Route path='/sign-up' element={<Signup />} /> */}
+          <Route path='/' element={<Index1 />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/packages' element={<Packages />} />
+          <Route path='/booking' element={<Booking />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/team' element={<TravelGuide />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/destination' element={<Destination />} />
 
-        <Route path='/*' element={<Page404 />} />
 
-      </Routes>
-    </div>
-    <ToastContainer />
-  </BrowserRouter>
+
+
+          <Route path='/*' element={<Page404 />} />
+
+        </Routes>
+      </div>
+      <ToastContainer />
+    </BrowserRouter>
   );
 }
 

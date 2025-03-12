@@ -3,15 +3,15 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
 const Header = ({ heading, desc }) => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const logout = () => {
-        localStorage.removeItem("Account-Status");
-        localStorage.removeItem("User-Id");
-        localStorage.removeItem("User-Name");
-        toast.error("User Logged Out!!");
-        navigate("/login");
-    };
+    // const logout = () => {
+    //     localStorage.removeItem("Account-Status");
+    //     localStorage.removeItem("User-Id");
+    //     localStorage.removeItem("User-Name");
+    //     toast.error("User Logged Out!!");
+    //     navigate("/login");
+    // };
 
     return (
         <div>
@@ -71,7 +71,7 @@ const Header = ({ heading, desc }) => {
                             </div>
                             <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
                         </div>
-                        <button className="btn btn-danger rounded-pill py-2 px-4" onClick={logout}>Log Out</button>
+                        {/* <button className="btn btn-danger rounded-pill py-2 px-4" onClick={logout}>Log Out</button> */}
                     </div>
                 </nav>
                 <div className="container-fluid bg-primary py-5 mb-5 hero-header">
@@ -81,10 +81,10 @@ const Header = ({ heading, desc }) => {
                                 <h1 className="display-3 text-white mb-3 animated slideInDown">{heading}</h1>
                                 <h3 className="text-white mb-3 animated slideInDown">Hello, {localStorage.getItem("User-Name")}</h3>
                                 <p className="fs-4 text-white mb-4 animated slideInDown">{desc}</p>
-                                <div className="position-relative w-75 mx-auto animated slideInDown">
+                                {/* <div className="position-relative w-75 mx-auto animated slideInDown">
                                     <input className="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Thailand" />
-                                    <button type="button" className="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style={{ marginTop: 7 }}>Search</button>
-                                </div>
+                                    <button type="button" className="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style={{ marginTop: 7 }}>Search</button> */}
+                                {/* </div> */}
                             </div>
                         </div>
                     </div>

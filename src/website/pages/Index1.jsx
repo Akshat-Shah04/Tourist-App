@@ -9,14 +9,14 @@ import Datetime from 'react-datetime';
 import 'react-datetime/css/react-datetime.css';
 
 const Index1 = () => {
-    const redirect = useNavigate();
+    // const redirect = useNavigate();
 
-    useEffect(() => {
-        if (!localStorage.getItem("User-Id") && !localStorage.getItem("User-Name")) {
-            redirect('/login');
-            toast.error("Please Login!!")
-        }
-    }, [redirect]);
+    // useEffect(() => {
+    //     if (!localStorage.getItem("User-Id") && !localStorage.getItem("User-Name")) {
+    //         redirect('/login');
+    //         toast.error("Please Login!!")
+    //     }
+    // }, [redirect]);
 
 
 

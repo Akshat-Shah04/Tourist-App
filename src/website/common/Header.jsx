@@ -79,7 +79,7 @@ const Header = ({ heading, desc }) => {
                         <div className="row justify-content-center py-5">
                             <div className="col-lg-10 pt-lg-5 mt-lg-5 text-center">
                                 <h1 className="display-3 text-white mb-3 animated slideInDown">{heading}</h1>
-                                <h3 className="text-white mb-3 animated slideInDown">Hello, {localStorage.getItem("User-Name")}</h3>
+                                {/* <h3 className="text-white mb-3 animated slideInDown">Hello, {localStorage.getItem("User-Name")}</h3> */}
                                 <p className="fs-4 text-white mb-4 animated slideInDown">{desc}</p>
                                 {/* <div className="position-relative w-75 mx-auto animated slideInDown">
                                     <input className="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Thailand" />

@@ -118,7 +118,7 @@ const Index1 = () => {
 
     return (
         <div>
-            <Header heading="Home Page" desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut nam qui ratione aspernatur non illum illo iure est earum." />
+            <Header heading="Tourist App" desc="Explore breathtaking destinations, plan your perfect getaway, and create unforgettable memories with our ultimate travel companion!" />
 
             <div>
                 {/* About Start */}
